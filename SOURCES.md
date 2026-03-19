@@ -6,19 +6,19 @@ All skills in this package MUST be verified against these approved sources. No o
 
 | Source | URL | Purpose |
 |--------|-----|---------|
-| Vite Documentation | https://vitejs.dev/ | Primary reference for all Vite content |
-| Vite Guide | https://vitejs.dev/guide/ | Getting started, features, concepts |
-| Vite Config Reference | https://vitejs.dev/config/ | Complete configuration options reference |
-| Vite Plugin API | https://vitejs.dev/guide/api-plugin | Plugin hook signatures and lifecycle |
-| Vite HMR API | https://vitejs.dev/guide/api-hmr | Hot Module Replacement client API |
-| Vite JavaScript API | https://vitejs.dev/guide/api-javascript | Programmatic `createServer()` and `build()` |
-| Vite Environment API | https://vitejs.dev/guide/api-environment | Vite 6 Environment API (multi-environment) |
-| Vite SSR Guide | https://vitejs.dev/guide/ssr | Server-Side Rendering guide |
-| Vite Library Mode | https://vitejs.dev/guide/build#library-mode | Library build configuration |
-| Vite Static Asset Handling | https://vitejs.dev/guide/assets | Asset import patterns and public directory |
-| Vite Env Variables | https://vitejs.dev/guide/env-and-mode | `import.meta.env`, `.env` files, modes |
-| Vite Dependency Pre-Bundling | https://vitejs.dev/guide/dep-pre-bundling | esbuild pre-bundling, optimization |
-| Vite Backend Integration | https://vitejs.dev/guide/backend-integration | Integration with backend frameworks |
+| Vite Documentation | https://vite.dev/ | Primary reference for all Vite content |
+| Vite Guide | https://vite.dev/guide/ | Getting started, features, concepts |
+| Vite Config Reference | https://vite.dev/config/ | Complete configuration options reference |
+| Vite Plugin API | https://vite.dev/guide/api-plugin | Plugin hook signatures and lifecycle |
+| Vite HMR API | https://vite.dev/guide/api-hmr | Hot Module Replacement client API |
+| Vite JavaScript API | https://vite.dev/guide/api-javascript | Programmatic `createServer()` and `build()` |
+| Vite Environment API | https://vite.dev/guide/api-environment | Vite 6 Environment API (multi-environment) |
+| Vite SSR Guide | https://vite.dev/guide/ssr | Server-Side Rendering guide |
+| Vite Library Mode | https://vite.dev/guide/build#library-mode | Library build configuration |
+| Vite Static Asset Handling | https://vite.dev/guide/assets | Asset import patterns and public directory |
+| Vite Env Variables | https://vite.dev/guide/env-and-mode | `import.meta.env`, `.env` files, modes |
+| Vite Dependency Pre-Bundling | https://vite.dev/guide/dep-pre-bundling | esbuild pre-bundling, optimization |
+| Vite Backend Integration | https://vite.dev/guide/backend-integration | Integration with backend frameworks |
 
 ## Source Code
 
@@ -43,8 +43,8 @@ All skills in this package MUST be verified against these approved sources. No o
 
 | Source | URL | Purpose |
 |--------|-----|---------|
-| Vite 5 to 6 Migration | https://vitejs.dev/guide/migration | Migration guide between major versions |
-| Vite Blog | https://vitejs.dev/blog/ | Release announcements |
+| Vite 5 to 6 Migration | https://vite.dev/guide/migration | Migration guide between major versions |
+| Vite Blog | https://vite.dev/blog/ | Release announcements |
 | GitHub Releases | https://github.com/vitejs/vite/releases | All version changelogs |
 
 ## Community (for Anti-Pattern Research)
@@ -83,4 +83,4 @@ All skills in this package MUST be verified against these approved sources. No o
 
 | Technology | Date | Action | Notes |
 |------------|------|--------|-------|
-| Vite | 2026-03-19 | Initial setup | All URLs pending verification |
+| Vite | 2026-03-19 | Deep research complete | All primary docs verified via WebFetch. Domain migrated vitejs.dev→vite.dev. Current stable: v8 (Rolldown+Oxc). v6 docs at v6.vite.dev. |

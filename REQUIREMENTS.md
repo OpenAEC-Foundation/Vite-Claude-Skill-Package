@@ -97,7 +97,7 @@ Enable Claude to write correct, version-aware Vite configuration and plugin code
 
 ## Critical Requirements (apply to ALL skills)
 
-- All config code MUST work with Vite 5.x and note differences for Vite 6.x
+- All config code MUST work with Vite 6.x/7.x/8.x and note differences per version
 - All plugin code MUST use correct hook signatures for the target version
 - Config examples MUST use `defineConfig()` for type safety
 - Environment variable examples MUST use `import.meta.env` (not `process.env` in client code)
@@ -136,7 +136,7 @@ Enable Claude to write correct, version-aware Vite configuration and plugin code
 
 ## Non-Requirements (explicitly out of scope)
 
-- No Vite 4.x or older coverage (Vite 5 and 6 only — D-007)
+- No Vite 5.x or older coverage except migration (Vite 6, 7, 8 — D-008)
 - No deep-dive into specific frontend frameworks (React/Vue/Svelte internals)
 - No Webpack/Rollup migration guides
 - No deployment platform tutorials (Vercel, Netlify specifics)

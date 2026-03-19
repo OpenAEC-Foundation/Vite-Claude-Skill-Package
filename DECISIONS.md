@@ -47,9 +47,44 @@ Architectural and process decisions with rationale. Each decision is numbered an
 **Decision**: ROADMAP.md is the ONLY place where project status is tracked
 **Rationale**: Multiple status locations cause drift and confusion. Single source prevents "which is current?" questions.
 
-## D-007: Vite 5 and 6 Coverage
+## D-007: Vite 6, 7, and 8 Coverage (SUPERSEDED by D-008)
+**Date**: 2026-03-19
+**Status**: SUPERSEDED
+**Context**: Originally assumed Vite 5/6 were current
+**Decision**: Skills cover Vite 5 and 6
+**Rationale**: Superseded after research revealed Vite 8 is current
+
+## D-008: Vite Version Scope — v6 through v8 (current)
 **Date**: 2026-03-19
 **Status**: ACTIVE
-**Context**: Vite has two current major versions (5.x and 6.x) with the Environment API as the key differentiator
-**Decision**: Skills cover both Vite 5 and Vite 6. Vite 4.x and older are out of scope. Where APIs differ between v5 and v6, skills MUST note the difference explicitly.
-**Rationale**: Vite 5 is still widely deployed. Vite 6 introduces the Environment API and other breaking changes. Covering both ensures the package is useful for the majority of active Vite projects. The Environment API is the most significant new feature in v6 and warrants dedicated coverage.
+**Context**: Research via WebFetch (2026-03-19) revealed Vite is at v8 with Rolldown replacing Rollup and Oxc replacing esbuild. Domain migrated from vitejs.dev to vite.dev.
+**Decision**: Skills cover Vite 6, 7, and 8. Vite 5 and older covered ONLY in migration context. v8 is primary target. Where APIs differ between versions (e.g., esbuild→Oxc, Rollup→Rolldown, build.rollupOptions→build.rolldownOptions), skills MUST note version-specific options.
+**Rationale**: Vite 8 uses Rolldown+Oxc (completely different build pipeline from v5/v6). v6 introduced Environment API. v7 dropped Node 18. These three versions represent the modern Vite stack. v5 users need migration guidance, not skill coverage.
+
+## D-009: SKILL.md Line Limit
+**Date**: 2026-03-19
+**Status**: ACTIVE
+**Context**: Skills must be concise and focused
+**Decision**: SKILL.md files MUST be under 500 lines. Heavy content goes in references/ subdirectory.
+**Rationale**: Proven in ERPNext, Blender, and Tauri packages. Keeps skills scannable and prevents Claude context bloat.
+
+## D-010: Domain Update — vite.dev
+**Date**: 2026-03-19
+**Status**: ACTIVE
+**Context**: Research revealed vitejs.dev now 301-redirects to vite.dev
+**Decision**: All source URLs updated to use vite.dev domain. Historical docs at v6.vite.dev, v7.vite.dev.
+**Rationale**: Follow canonical domain to prevent redirect chains.
+
+## D-011: 22 Skills — Definitive Count
+**Date**: 2026-03-19
+**Status**: ACTIVE
+**Context**: Research completed, skill inventory finalized based on Vite API surface
+**Decision**: 22 skills across 5 categories (core: 2, syntax: 8, impl: 7, errors: 3, agents: 2), executed in 8 batches.
+**Rationale**: Covers complete Vite surface (config, plugin API, HMR, SSR, library mode, Environment API, assets, optimization, JavaScript API) without overlap. Sized appropriately for single-technology package.
+
+## D-012: WebFetch Verification Mandatory
+**Date**: 2026-03-19
+**Status**: ACTIVE
+**Context**: Training data may be outdated (originally assumed v5/v6, reality is v8)
+**Decision**: ALL code examples and API references MUST be verified via WebFetch against official documentation before inclusion in skills.
+**Rationale**: Vite v8 introduced breaking changes (Rolldown, Oxc, Lightning CSS default). Training data contains stale information about esbuild and Rollup-based Vite.

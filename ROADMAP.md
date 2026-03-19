@@ -1,7 +1,7 @@
 # ROADMAP
 
-## Current Phase: Phase 1 — Setup + Raw Masterplan
-## Overall Progress: 0 skills (Phase 1 at 50%)
+## Current Phase: Phase 7 — Publication
+## Overall Progress: 22/22 skills (100%)
 
 ---
 
@@ -9,26 +9,26 @@
 
 | Phase | Name | Status | Skills |
 |-------|------|--------|--------|
-| 1 | Setup + Raw Masterplan | IN PROGRESS (50%) | — |
-| 2 | Deep Research (Vooronderzoek) | NOT STARTED | — |
-| 3 | Masterplan Refinement | NOT STARTED | — |
-| 4 | Topic-Specific Research | NOT STARTED | — |
-| 5 | Skill Creation | NOT STARTED | 0/TBD |
-| 6 | Validation | NOT STARTED | — |
-| 7 | Publication | NOT STARTED | — |
+| 1 | Setup + Raw Masterplan | COMPLETE | — |
+| 2 | Deep Research (Vooronderzoek) | COMPLETE | — |
+| 3 | Masterplan Refinement | COMPLETE | — |
+| 4 | Topic-Specific Research | EMBEDDED IN PHASE 5 | — |
+| 5 | Skill Creation | COMPLETE | 22/22 |
+| 6 | Validation | COMPLETE | — |
+| 7 | Publication | IN PROGRESS | — |
 
 ---
 
-## Skill Inventory (Preliminary)
+## Skill Inventory (Definitive — 22 skills)
 
-| Category | Estimated Count | Status |
-|----------|:---------------:|--------|
-| vite-core | ~3 | NOT STARTED |
-| vite-syntax | ~8 | NOT STARTED |
-| vite-impl | ~8 | NOT STARTED |
-| vite-errors | ~4 | NOT STARTED |
-| vite-agents | ~2 | NOT STARTED |
-| **Total** | **~25** | **0%** |
+| Category | Count | Status |
+|----------|:-----:|--------|
+| vite-core | 2 | COMPLETE |
+| vite-syntax | 8 | COMPLETE |
+| vite-impl | 7 | COMPLETE |
+| vite-errors | 3 | COMPLETE |
+| vite-agents | 2 | COMPLETE |
+| **Total** | **22** | **100%** |
 
 ---
 
@@ -37,12 +37,18 @@
 | Date | Event |
 |------|-------|
 | 2026-03-19 | Project initialized — core governance files, directory structure, protocols |
+| 2026-03-19 | Phase 2 complete — deep research via WebFetch on all Vite docs (3 fragments) |
+| 2026-03-19 | CRITICAL: Vite at v8 (Rolldown+Oxc), not v5/v6. Version scope updated (D-008) |
+| 2026-03-19 | Phase 3 complete — masterplan with 22 skills, 8 batches, full agent prompts |
+| 2026-03-19 | Phase 5 complete — all 22 skills created across 8 batches |
+| 2026-03-19 | Phase 6 complete — structural validation passed for all skills |
+| 2026-03-19 | Phase 7 — INDEX.md, README.md, CHANGELOG.md updated |
 
 ---
 
 ## Next Steps
 
-1. Complete Phase 1 — create raw masterplan (`docs/masterplan/vite-masterplan.md`)
-2. Begin Phase 2 — deep research (vooronderzoek) on Vite 5/6 architecture, plugin API, HMR, SSR, Environment API, library mode
-3. Populate SOURCES.md with verified URLs
-4. Refine skill inventory based on research findings
+1. Commit all changes
+2. Create GitHub release tag (v1.0.0)
+3. Set repository topics (claude, skills, vite, build-tool, frontend, ai, deterministic, openaec)
+4. Verify README.md renders correctly on GitHub
