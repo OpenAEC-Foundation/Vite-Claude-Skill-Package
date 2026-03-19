@@ -1,6 +1,15 @@
 ---
 name: vite-errors-dev-server
-description: "Diagnoses and resolves Vite dev server errors including HMR not working (full reload instead), proxy configuration failures, CORS issues, HTTPS setup problems, module resolution errors, server.fs.strict violations, port conflicts, WebSocket connection failures, file watcher issues, and middleware mode problems. Activates when encountering dev server startup failures, HMR issues, proxy errors, CORS blocks, or module not found errors during development."
+description: >
+  Use when encountering dev server startup failures, HMR issues, proxy errors,
+  CORS blocks, or module not found errors during development.
+  Prevents misconfiguring server.hmr behind reverse proxies and forgetting
+  appType: 'custom' in middleware mode.
+  Covers HMR full-reload debugging, proxy configuration, CORS setup, HTTPS
+  certificates, server.fs.strict violations, port conflicts, WebSocket
+  failures, file watcher issues, and middleware mode.
+  Keywords: dev server, HMR, proxy, CORS, HTTPS, WebSocket, port conflict,
+  server.fs.strict, middleware mode, file watcher.
 license: MIT
 compatibility: "Designed for Claude Code. Requires Vite 6.x, 7.x, or 8.x."
 metadata:

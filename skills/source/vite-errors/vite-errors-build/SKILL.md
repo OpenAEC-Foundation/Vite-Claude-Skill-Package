@@ -1,6 +1,15 @@
 ---
 name: vite-errors-build
-description: "Diagnoses and resolves Vite build errors including Rolldown/Rollup bundling failures, chunk size warnings, build.target compatibility issues, CSS minification errors, sourcemap problems, library mode build failures, deprecated rollupOptions in v8, v8 BundleError handling, minifier issues (oxc vs esbuild vs terser), and asset processing errors. Activates when encountering build failures, production bundle issues, chunk size warnings, or version-specific build errors."
+description: >
+  Use when encountering Vite build failures, chunk size warnings, or
+  version-specific build errors.
+  Prevents the common mistake of using deprecated rollupOptions in v8 or
+  misconfiguring build targets and minifiers.
+  Covers Rolldown/Rollup bundling failures, CSS minification errors, sourcemap
+  problems, library mode build failures, BundleError handling, and asset
+  processing errors.
+  Keywords: build error, Rolldown, chunk size, sourcemap, library mode, minify,
+  BundleError, rollupOptions, build.target.
 license: MIT
 compatibility: "Designed for Claude Code. Requires Vite 6.x, 7.x, or 8.x."
 metadata:

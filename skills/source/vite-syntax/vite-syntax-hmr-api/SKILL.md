@@ -1,6 +1,15 @@
 ---
 name: vite-syntax-hmr-api
-description: "Guides the Vite HMR (Hot Module Replacement) client API including ViteHotContext interface, import.meta.hot guard pattern, hot.accept() for self-accepting and dependency-accepting modules, hot.dispose() for cleanup, hot.prune() for module pruning, hot.invalidate() for forced propagation, hot.data for persistent state, hot.on()/hot.off()/hot.send() for custom events, built-in HMR events, HMR boundary concept, and when full reload occurs vs HMR update. Activates when implementing custom HMR handling, debugging HMR issues, writing HMR-aware modules, or understanding why full reloads happen."
+description: >
+  Use when implementing custom HMR handling, debugging HMR issues, writing
+  HMR-aware modules, or understanding why full reloads happen.
+  Prevents missing the import.meta.hot guard (causing production errors),
+  reassigning hot.data instead of mutating it, and forgetting accept() boundaries.
+  Covers ViteHotContext interface, import.meta.hot guard pattern, hot.accept()
+  for self-accepting and dependency-accepting modules, hot.dispose(), hot.prune(),
+  hot.invalidate(), hot.data for persistent state, hot.on()/hot.off()/hot.send()
+  for custom events, built-in HMR events, and HMR boundary concept.
+  Keywords: vite, HMR, hot module replacement, accept, dispose, invalidate, hot.data, full reload.
 license: MIT
 compatibility: "Designed for Claude Code. Requires Vite 6.x, 7.x, or 8.x."
 metadata:

@@ -1,6 +1,16 @@
 ---
 name: vite-syntax-plugin-api
-description: "Guides the complete Vite plugin API including plugin structure, naming conventions, Vite-specific hooks (config, configResolved, configureServer, configurePreviewServer, transformIndexHtml, handleHotUpdate), Rollup-compatible hooks (resolveId, load, transform, buildStart, buildEnd), plugin ordering (enforce pre/post), conditional application (apply), virtual modules pattern, hook filters (v6.3+), plugin context meta, client-server WebSocket communication, output bundle metadata, and path normalization utilities. Activates when writing Vite plugins, understanding hook lifecycle, creating virtual modules, or customizing the build pipeline."
+description: >
+  Use when writing Vite plugins, understanding hook lifecycle, creating virtual
+  modules, or customizing the build pipeline.
+  Prevents incorrect hook ordering (enforce pre/post), missing the virtual module
+  resolved-id prefix convention, and using build-only hooks during dev.
+  Covers plugin structure, naming conventions, Vite-specific hooks (config,
+  configResolved, configureServer, transformIndexHtml, handleHotUpdate),
+  Rollup-compatible hooks (resolveId, load, transform), plugin ordering,
+  conditional application (apply), virtual modules, hook filters (v6.3+),
+  and client-server WebSocket communication.
+  Keywords: vite, plugin, hooks, virtual modules, resolveId, transform, enforce, configureServer.
 license: MIT
 compatibility: "Designed for Claude Code. Requires Vite 6.x, 7.x, or 8.x."
 metadata:

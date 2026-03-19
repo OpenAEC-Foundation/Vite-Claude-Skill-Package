@@ -1,6 +1,15 @@
 ---
 name: vite-errors-dependency
-description: "Diagnoses and resolves Vite dependency pre-bundling errors including CJS/ESM conversion failures, missing dependencies not auto-discovered, optimizeDeps misconfiguration, monorepo linked dependency issues, cache invalidation problems, browser cache staleness, excluded CJS dependencies breaking, and slow dev server starts from large dependency trees. Activates when encountering pre-bundling errors, dependency resolution failures, stale cache issues, or slow development server startup."
+description: >
+  Use when encountering pre-bundling errors, dependency resolution failures,
+  stale cache issues, or slow development server startup.
+  Prevents excluding CJS dependencies from pre-bundling (which breaks runtime
+  module resolution) and misconfiguring optimizeDeps.
+  Covers CJS/ESM conversion failures, missing dependency auto-discovery,
+  optimizeDeps configuration, monorepo linked dependencies, cache invalidation,
+  browser cache staleness, and large dependency tree performance.
+  Keywords: pre-bundling, optimizeDeps, CJS, ESM, cache, dependency resolution,
+  monorepo, node_modules/.vite.
 license: MIT
 compatibility: "Designed for Claude Code. Requires Vite 6.x, 7.x, or 8.x."
 metadata:

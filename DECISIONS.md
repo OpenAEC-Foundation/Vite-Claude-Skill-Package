@@ -88,3 +88,31 @@ Architectural and process decisions with rationale. Each decision is numbered an
 **Context**: Training data may be outdated (originally assumed v5/v6, reality is v8)
 **Decision**: ALL code examples and API references MUST be verified via WebFetch against official documentation before inclusion in skills.
 **Rationale**: Vite v8 introduced breaking changes (Rolldown, Oxc, Lightning CSS default). Training data contains stale information about esbuild and Rollup-based Vite.
+
+## D-013: Merge resolve and CSS into single skill
+**Date**: 2026-03-19
+**Status**: ACTIVE
+**Context**: Masterplan refinement — resolve.* and css.* are both config subsections, neither large enough for a standalone skill.
+**Decision**: Merge `vite-syntax-resolve` and `vite-syntax-css` into `vite-syntax-resolve-css`.
+**Rationale**: Both are configuration subsections under vite.config.ts. Combined skill stays well under 500 lines and avoids thin standalone skills.
+
+## D-014: Merge multi-page into build syntax skill
+**Date**: 2026-03-19
+**Status**: ACTIVE
+**Context**: Masterplan refinement — multi-page app setup is just `rolldownOptions.input` configuration.
+**Decision**: Absorb `vite-impl-multi-page` into `vite-syntax-build`. Remove multi-page as standalone skill.
+**Rationale**: Multi-page configuration amounts to a single config option (input object). Too thin for a standalone skill.
+
+## D-015: Batch execution order — core first, agents last
+**Date**: 2026-03-19
+**Status**: ACTIVE
+**Context**: Masterplan refinement — need to determine optimal batch ordering.
+**Decision**: Execute batches as: core → syntax → impl → errors → agents. Foundation skills built first, agent skills last (depend on all others).
+**Rationale**: Standard dependency ordering proven in Tauri package. Agents need to reference all other skill patterns.
+
+## D-016: Reference file naming — context-specific over template defaults
+**Date**: 2026-03-19
+**Status**: ACTIVE
+**Context**: SKILL.md template specifies `methods.md`, `examples.md`, `anti-patterns.md` as reference files. Skills use context-specific names (config-options.md, api-reference.md, hooks.md, etc.).
+**Decision**: Context-specific reference file names are acceptable and preferred when they improve clarity. The template provides defaults, not mandates.
+**Rationale**: `config-options.md` is more discoverable than `methods.md` for a configuration skill. All reference links are valid and correctly linked from SKILL.md.

@@ -3,7 +3,7 @@
 ## What This Skill Package Must Achieve
 
 ### Primary Goal
-Enable Claude to write correct, version-aware Vite configuration and plugin code for both Vite 5 and Vite 6 — without hallucinating APIs or using deprecated patterns.
+Enable Claude to write correct, version-aware Vite configuration and plugin code for Vite 6, 7, and 8 — without hallucinating APIs or using deprecated patterns.
 
 ### What Claude Should Do After Loading Skills
 1. Recognize Vite context from user requests (build tool, dev server, HMR, bundling)
@@ -15,7 +15,7 @@ Enable Claude to write correct, version-aware Vite configuration and plugin code
 ### Quality Guarantees
 | Guarantee | Description |
 |-----------|-------------|
-| Version-correct | Code MUST specify Vite 5.x or 6.x target and note differences |
+| Version-correct | Code MUST specify Vite 6.x, 7.x, or 8.x target and note differences |
 | API-accurate | All config options and plugin hooks verified against official docs |
 | Framework-aware | Skills cover Vite with React, Vue, Svelte, and vanilla setups |
 | Anti-pattern-free | Known mistakes are explicitly documented and avoided |
@@ -43,7 +43,7 @@ Enable Claude to write correct, version-aware Vite configuration and plugin code
 | Plugin ordering | `enforce: 'pre'` / `enforce: 'post'`, plugin execution order |
 | Virtual modules | `resolveId` + `load` pattern for virtual module creation |
 | HMR in plugins | `handleHotUpdate`, custom HMR via `import.meta.hot` |
-| Critical | Correct hook signatures and return types for Vite 5 AND 6 |
+| Critical | Correct hook signatures and return types for Vite 6, 7, AND 8 |
 
 ### 3. HMR (Hot Module Replacement)
 | Requirement | Detail |
@@ -69,13 +69,13 @@ Enable Claude to write correct, version-aware Vite configuration and plugin code
 | Type generation | DTS plugin integration, `.d.ts` output |
 | Critical | Correct UMD/ESM/CJS output configuration |
 
-### 6. Environment API (Vite 6)
+### 6. Environment API (Vite 6+)
 | Requirement | Detail |
 |-------------|--------|
 | Environments | `ssr`, `client`, custom environments |
 | Dev config | Per-environment dev configuration |
 | Build config | Per-environment build configuration |
-| Critical | Vite 6 breaking changes from Vite 5 environment handling |
+| Critical | Environment API introduced in Vite 6, evolved in v7/v8 |
 
 ### 7. Asset Handling
 | Requirement | Detail |

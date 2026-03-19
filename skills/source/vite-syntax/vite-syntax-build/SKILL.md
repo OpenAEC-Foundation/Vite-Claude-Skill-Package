@@ -1,6 +1,15 @@
 ---
 name: vite-syntax-build
-description: "Guides all Vite build configuration options including build.target, build.outDir, build.assetsDir, build.assetsInlineLimit, build.cssCodeSplit, build.cssTarget, build.cssMinify, build.sourcemap, build.rolldownOptions (v8)/build.rollupOptions (v6-v7), build.lib, build.manifest, build.ssr, build.ssrManifest, build.minify (oxc/terser/esbuild), build.write, build.emptyOutDir, build.reportCompressedSize, build.chunkSizeWarningLimit, build.watch, and build.license. Activates when configuring production builds, optimizing output, setting build targets, or configuring chunk splitting."
+description: >
+  Use when configuring production builds, optimizing output, setting build targets,
+  or configuring chunk splitting.
+  Prevents using wrong bundler config key for the target Vite version (rollupOptions
+  vs rolldownOptions) and misconfiguring minifier or sourcemap settings.
+  Covers build.target, build.outDir, build.assetsDir, build.assetsInlineLimit,
+  build.cssCodeSplit, build.cssTarget, build.cssMinify, build.sourcemap,
+  build.rolldownOptions (v8)/build.rollupOptions (v6-v7), build.lib, build.manifest,
+  build.ssr, build.minify (oxc/terser/esbuild), build.emptyOutDir, and build.watch.
+  Keywords: vite, build, rollup, rolldown, minify, sourcemap, chunk splitting, build target.
 license: MIT
 compatibility: "Designed for Claude Code. Requires Vite 6.x, 7.x, or 8.x."
 metadata:

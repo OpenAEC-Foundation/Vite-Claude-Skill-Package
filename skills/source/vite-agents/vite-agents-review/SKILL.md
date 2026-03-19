@@ -1,6 +1,15 @@
 ---
 name: vite-agents-review
-description: "Validates generated Vite code and configuration by checking config correctness, plugin hook signatures, HMR patterns, version-specific API usage, build optimization, environment variable security, SSR configuration, and known anti-patterns. Run this validation checklist against any Vite project to ensure correctness. Activates when reviewing Vite configuration, validating a Vite project, checking for common mistakes, or auditing Vite code before deployment."
+description: >
+  Use when reviewing Vite configuration, validating a Vite project, checking
+  for common mistakes, or auditing Vite code before deployment.
+  Prevents shipping insecure envPrefix settings, wrong bundler options for the
+  target version, and known anti-patterns.
+  Covers config correctness, plugin hook signatures, HMR patterns,
+  version-specific API usage, build optimization, environment variable
+  security, SSR configuration, and anti-pattern detection.
+  Keywords: review, validation, checklist, audit, anti-pattern, envPrefix,
+  plugin hooks, security, SSR, build optimization.
 license: MIT
 compatibility: "Designed for Claude Code. Requires Vite 6.x, 7.x, or 8.x."
 metadata:

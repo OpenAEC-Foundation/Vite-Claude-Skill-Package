@@ -1,6 +1,14 @@
 ---
 name: vite-syntax-config
-description: "Guides vite.config.ts/js configuration including defineConfig(), conditional and async config functions, loadEnv() for environment variables in config, and all shared options (root, base, mode, define, plugins, publicDir, cacheDir, logLevel, clearScreen, envDir, envPrefix, appType, future). Activates when creating or editing vite.config.ts, setting up project configuration, or configuring shared Vite options."
+description: >
+  Use when creating or editing vite.config.ts, setting up project configuration,
+  or configuring shared Vite options.
+  Prevents misconfiguring defineConfig(), forgetting loadEnv() for env-dependent
+  config, and using wrong shared option defaults.
+  Covers defineConfig(), conditional and async config functions, loadEnv(),
+  and all shared options (root, base, mode, define, plugins, publicDir, cacheDir,
+  logLevel, clearScreen, envDir, envPrefix, appType, future).
+  Keywords: vite, config, defineConfig, loadEnv, vite.config.ts, shared options, plugins.
 license: MIT
 compatibility: "Designed for Claude Code. Requires Vite 6.x, 7.x, or 8.x."
 metadata:

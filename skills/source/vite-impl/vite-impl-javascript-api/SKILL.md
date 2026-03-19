@@ -1,6 +1,15 @@
 ---
 name: vite-impl-javascript-api
-description: "Guides the Vite programmatic JavaScript API including createServer() with InlineConfig, ViteDevServer interface (moduleGraph, middlewares, ws, transformRequest, ssrLoadModule), build() with RollupOutput, preview() with PreviewServer, resolveConfig(), mergeConfig(), loadConfigFromFile(), loadEnv(), searchForWorkspaceRoot(), transformWithOxc() (v8)/transformWithEsbuild() (deprecated), normalizePath(), createFilter(), and version constants. Activates when using Vite programmatically, building custom dev servers, running builds from scripts, or accessing Vite utilities."
+description: >
+  Use when using Vite programmatically, building custom dev servers, running
+  builds from scripts, or accessing Vite utilities.
+  Prevents misuse of createServer(), build(), preview() signatures and
+  incorrect ViteDevServer interface usage.
+  Covers createServer(), build(), preview(), resolveConfig(), mergeConfig(),
+  loadConfigFromFile(), loadEnv(), searchForWorkspaceRoot(), transformWithOxc(),
+  normalizePath(), createFilter(), and version constants.
+  Keywords: JavaScript API, createServer, build, preview, InlineConfig,
+  ViteDevServer, moduleGraph, resolveConfig, mergeConfig, loadEnv.
 license: MIT
 compatibility: "Designed for Claude Code. Requires Vite 6.x, 7.x, or 8.x."
 metadata:

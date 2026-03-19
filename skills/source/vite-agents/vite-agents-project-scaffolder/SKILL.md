@@ -1,6 +1,15 @@
 ---
 name: vite-agents-project-scaffolder
-description: "Generates complete Vite project structure including vite.config.ts with appropriate plugins, TypeScript configuration (tsconfig.json, vite-env.d.ts), package.json with scripts and dependencies, index.html entry point, source directory structure, environment variable setup (.env, .env.example), and framework-specific configurations. Supports React, Vue, Svelte, and vanilla TypeScript projects. Activates when generating a new Vite project from scratch, adding Vite to an existing app, or scaffolding a production-ready Vite setup."
+description: >
+  Use when generating a new Vite project from scratch, adding Vite to an
+  existing app, or scaffolding a production-ready Vite setup.
+  Prevents missing vite-env.d.ts, incorrect plugin selection, and incomplete
+  environment variable configuration.
+  Covers vite.config.ts generation, TypeScript setup (tsconfig.json,
+  vite-env.d.ts), package.json with scripts, index.html entry point, source
+  directory structure, .env setup, and React/Vue/Svelte/vanilla support.
+  Keywords: scaffold, project setup, vite.config.ts, tsconfig, React, Vue,
+  Svelte, TypeScript, package.json, create-vite.
 license: MIT
 compatibility: "Designed for Claude Code. Requires Vite 6.x, 7.x, or 8.x."
 metadata:

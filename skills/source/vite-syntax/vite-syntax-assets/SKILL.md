@@ -1,6 +1,12 @@
 ---
 name: vite-syntax-assets
-description: "Guides Vite static asset handling including asset imports (resolved URLs), query suffixes (?url, ?raw, ?inline, ?no-inline, ?worker, ?sharedworker), new URL() pattern with import.meta.url, public directory behavior, JSON imports with named exports, glob imports (import.meta.glob) with eager/lazy/named/query options, WebAssembly ?init imports, and Web Worker patterns (constructor and query syntax). Activates when importing static assets, using glob imports, configuring the public directory, loading Web Workers, or handling WebAssembly modules."
+description: >
+  Use when importing static assets, using glob imports, configuring the public directory,
+  loading Web Workers, or handling WebAssembly modules.
+  Prevents incorrect query suffix usage, broken new URL() patterns, and misconfigured public directory paths.
+  Covers asset imports, query suffixes (?url, ?raw, ?inline, ?worker), import.meta.glob,
+  public directory, JSON imports, WebAssembly ?init, and Web Worker patterns.
+  Keywords: asset import, query suffix, ?raw, ?url, ?worker, import.meta.glob, public directory, WebAssembly, Web Worker.
 license: MIT
 compatibility: "Designed for Claude Code. Requires Vite 6.x, 7.x, or 8.x."
 metadata:

@@ -1,6 +1,12 @@
 ---
 name: vite-impl-library-mode
-description: "Guides Vite library mode for building reusable npm packages including build.lib configuration (entry, name, fileName, formats, cssFileName), external dependencies via rolldownOptions.external, output formats (es, cjs, umd, iife), CSS handling in libraries, multiple entry points, DTS generation with vite-plugin-dts, and recommended package.json exports field structure. Activates when building a library, creating an npm package, configuring UMD/ESM/CJS output, or setting up package.json exports."
+description: >
+  Use when building a library, creating an npm package, configuring UMD/ESM/CJS output,
+  or setting up package.json exports.
+  Prevents bundling peer dependencies into the library or misconfiguring output formats.
+  Covers build.lib configuration, external dependencies, output formats (es, cjs, umd, iife),
+  CSS handling, multiple entry points, vite-plugin-dts, and package.json exports.
+  Keywords: build.lib, library mode, npm package, external, UMD, ESM, CJS, vite-plugin-dts, exports.
 license: MIT
 compatibility: "Designed for Claude Code. Requires Vite 6.x, 7.x, or 8.x."
 metadata:

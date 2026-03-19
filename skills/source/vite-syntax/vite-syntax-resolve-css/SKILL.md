@@ -1,6 +1,15 @@
 ---
 name: vite-syntax-resolve-css
-description: "Guides Vite module resolution and CSS configuration including resolve.alias, resolve.dedupe, resolve.conditions, resolve.extensions, resolve.tsconfigPaths, css.modules, css.postcss, css.preprocessorOptions (Sass/Less/Stylus), css.transformer (PostCSS/Lightning CSS), css.lightningcss, css.devSourcemap, json.namedExports, json.stringify, and html.cspNonce. Activates when configuring path aliases, CSS modules, CSS preprocessors, PostCSS, Lightning CSS, or module resolution behavior."
+description: >
+  Use when configuring path aliases, CSS modules, CSS preprocessors, PostCSS,
+  Lightning CSS, or module resolution behavior.
+  Prevents resolve.alias misconfiguration breaking imports and CSS preprocessor
+  options not matching the installed preprocessor version.
+  Covers resolve.alias, resolve.dedupe, resolve.conditions, resolve.extensions,
+  resolve.tsconfigPaths, css.modules, css.postcss, css.preprocessorOptions
+  (Sass/Less/Stylus), css.transformer, css.lightningcss, css.devSourcemap,
+  json.namedExports, json.stringify, and html.cspNonce.
+  Keywords: vite, resolve, alias, CSS modules, PostCSS, Lightning CSS, Sass, preprocessor.
 license: MIT
 compatibility: "Designed for Claude Code. Requires Vite 6.x, 7.x, or 8.x."
 metadata:

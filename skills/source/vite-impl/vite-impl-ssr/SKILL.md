@@ -1,6 +1,12 @@
 ---
 name: vite-impl-ssr
-description: "Guides Vite Server-Side Rendering including SSR dev workflow with Express middleware mode, ssrLoadModule() for development, ssrFixStacktrace() for error debugging, SSR externals configuration (ssr.noExternal, ssr.external, ssr.target), SSR build commands, SSR manifest for preload directives, SSR conditional logic (import.meta.env.SSR), production build steps, and plugin SSR detection via options.ssr. Activates when implementing SSR, configuring SSR externals, building SSR applications, or debugging SSR errors."
+description: >
+  Use when implementing SSR, configuring SSR externals, building SSR applications,
+  or debugging SSR errors.
+  Prevents incorrect SSR externals configuration and missing ssrFixStacktrace() for error debugging.
+  Covers SSR dev workflow with Express middleware, ssrLoadModule(), SSR externals (ssr.noExternal,
+  ssr.external, ssr.target), SSR manifest, import.meta.env.SSR, and production build steps.
+  Keywords: SSR, ssrLoadModule, ssrFixStacktrace, ssr.noExternal, ssr.external, SSR manifest, middleware mode.
 license: MIT
 compatibility: "Designed for Claude Code. Requires Vite 6.x, 7.x, or 8.x."
 metadata:

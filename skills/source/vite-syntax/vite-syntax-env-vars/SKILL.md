@@ -1,6 +1,12 @@
 ---
 name: vite-syntax-env-vars
-description: "Guides Vite environment variables including import.meta.env built-in constants (MODE, BASE_URL, PROD, DEV, SSR), .env file loading order and precedence, VITE_ prefix security requirement, dotenv-expand variable expansion, custom modes, NODE_ENV vs mode distinction, TypeScript IntelliSense for custom env vars (ImportMetaEnv), HTML template env replacement (%VAR%), and loadEnv() for config access. Activates when configuring environment variables, using .env files, creating custom modes, or debugging env variable issues."
+description: >
+  Use when configuring environment variables, using .env files, creating custom modes,
+  or debugging env variable issues.
+  Prevents exposing secrets by omitting the VITE_ prefix and misconfiguring .env file precedence.
+  Covers import.meta.env built-ins, .env file loading order, VITE_ prefix requirement,
+  dotenv-expand, custom modes, NODE_ENV vs mode, ImportMetaEnv TypeScript, HTML %VAR%, and loadEnv().
+  Keywords: import.meta.env, .env, VITE_ prefix, loadEnv, custom mode, NODE_ENV, ImportMetaEnv.
 license: MIT
 compatibility: "Designed for Claude Code. Requires Vite 6.x, 7.x, or 8.x."
 metadata:

@@ -1,6 +1,14 @@
 ---
 name: vite-core-architecture
-description: "Guides Vite application architecture including dev server vs build pipeline, native ESM serving, dependency pre-bundling concept, module graph, internal tools evolution (esbuild→Oxc, Rollup→Rolldown), index.html as entry point, browser support targets, and Node.js requirements. Activates when creating new Vite projects, understanding Vite internals, or reasoning about dev vs production behavior."
+description: >
+  Use when creating a new Vite project, understanding Vite internals, or reasoning
+  about dev vs production behavior.
+  Prevents confusing Vite's native ESM dev server with traditional bundler-based
+  dev servers and misunderstanding the two-mode architecture.
+  Covers dev server vs build pipeline, native ESM serving, dependency pre-bundling,
+  module graph, internal tools evolution (esbuild to Oxc, Rollup to Rolldown),
+  index.html as entry point, browser support targets, and Node.js requirements.
+  Keywords: vite, architecture, dev server, build, ESM, Rolldown, Oxc, pre-bundling, module graph.
 license: MIT
 compatibility: "Designed for Claude Code. Requires Vite 6.x, 7.x, or 8.x."
 metadata:

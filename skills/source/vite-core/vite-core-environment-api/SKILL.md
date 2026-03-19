@@ -1,6 +1,14 @@
 ---
 name: vite-core-environment-api
-description: "Guides the Vite 6+ Environment API for multi-environment configuration including per-environment build and dev settings, EnvironmentOptions interface, custom environment providers, shared vs per-environment plugins, configuration inheritance, and migration from Vite 5 implicit environments. Activates when configuring SSR environments, edge workers, custom environments, or migrating to Vite 6+ environment model."
+description: >
+  Use when configuring SSR environments, edge workers, custom environments, or
+  migrating to the Vite 6+ environment model.
+  Prevents using the Environment API on Vite 5 (where it does not exist) and
+  misconfiguring per-environment vs shared plugin scoping.
+  Covers per-environment build and dev settings, EnvironmentOptions interface,
+  custom environment providers, shared vs per-environment plugins, configuration
+  inheritance, and migration from Vite 5 implicit environments.
+  Keywords: vite, environment api, vite 6, SSR, edge workers, per-environment config, providers.
 license: MIT
 compatibility: "Designed for Claude Code. Requires Vite 6.x or later."
 metadata:

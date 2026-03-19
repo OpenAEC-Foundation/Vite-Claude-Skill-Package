@@ -4,6 +4,18 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.0.1] - 2026-03-19
+
+### Fixed
+- Migrated all 22 SKILL.md descriptions from quoted strings to YAML folded block scalar (`>`) format
+- Restructured all descriptions to "Use when... / Prevents... / Covers... / Keywords:..." pattern
+- Fixed REQUIREMENTS.md version references (was "Vite 5 and 6", now "Vite 6, 7, and 8" per D-008)
+- Synced masterplan refinement decisions to DECISIONS.md (D-013 through D-016)
+- Added ROADMAP.md note explaining single-session commit history
+
+### Added
+- L-007 through L-009 in LESSONS.md (commit discipline, YAML format, decision sync)
+
 ## [1.0.0] - 2026-03-19
 
 ### Added

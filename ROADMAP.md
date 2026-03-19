@@ -47,6 +47,11 @@
 
 ---
 
+## Notes
+
+- Phases 2-6 were executed in a single session (2026-03-19) and committed together in `f74a309`. The changelog entries above reflect logical phase boundaries within that session, not separate git commits.
+- Compliance audit performed 2026-03-19: remediated YAML frontmatter (22 skills migrated to `>` format), synced DECISIONS.md, fixed REQUIREMENTS.md version references.
+
 ## Next Steps
 
 Project complete. Published at:

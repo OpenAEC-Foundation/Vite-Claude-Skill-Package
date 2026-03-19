@@ -1,6 +1,15 @@
 ---
 name: vite-impl-migration
-description: "Guides Vite version migration including v5 to v6 breaking changes (Environment API, json.stringify, resolve.conditions, PostCSS, Sass modern API), v6 to v7 breaking changes (Node.js 20+, build.target update, Sass legacy removed), and v7 to v8 breaking changes (Rolldown replaces Rollup, Oxc replaces esbuild, Lightning CSS default, rolldownOptions replaces rollupOptions, moduleType requirement for plugins). Activates when upgrading Vite versions, encountering deprecated APIs, or resolving version-specific errors."
+description: >
+  Use when upgrading Vite versions, encountering deprecated APIs, or resolving
+  version-specific breaking changes.
+  Prevents using removed APIs after migration (e.g., rollupOptions in v8,
+  legacy Sass API in v7, esbuild transforms in v8).
+  Covers v5-to-v6 breaking changes (Environment API, json.stringify, PostCSS),
+  v6-to-v7 (Node.js 20+, build.target), and v7-to-v8 (Rolldown, Oxc,
+  Lightning CSS, rolldownOptions, moduleType).
+  Keywords: migration, upgrade, breaking changes, Rolldown, Oxc, Lightning CSS,
+  deprecated API, version compatibility.
 license: MIT
 compatibility: "Designed for Claude Code. Covers migration paths from Vite 5 through Vite 8."
 metadata:

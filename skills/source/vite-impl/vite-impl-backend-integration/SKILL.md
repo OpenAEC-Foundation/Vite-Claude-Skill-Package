@@ -1,6 +1,12 @@
 ---
 name: vite-impl-backend-integration
-description: "Guides Vite integration with backend frameworks including build.manifest configuration, .vite/manifest.json structure and ManifestChunk properties, development mode HTML setup with Vite client script, production HTML rendering from manifest, CSS and JS chunk resolution order, React preamble for HMR, modulepreload polyfill, and manifest traversal algorithm. Activates when integrating Vite with a backend framework, rendering Vite assets from server-side templates, or setting up dev/production HTML serving."
+description: >
+  Use when integrating Vite with a backend framework, rendering Vite assets from server-side
+  templates, or setting up dev/production HTML serving.
+  Prevents incorrect manifest.json traversal and missing CSS chunk resolution in production.
+  Covers build.manifest configuration, .vite/manifest.json structure, ManifestChunk properties,
+  dev mode HTML setup, production rendering, CSS/JS chunk resolution, and modulepreload polyfill.
+  Keywords: backend integration, manifest.json, ManifestChunk, Django, Laravel, Rails, modulepreload.
 license: MIT
 compatibility: "Designed for Claude Code. Requires Vite 6.x, 7.x, or 8.x."
 metadata:

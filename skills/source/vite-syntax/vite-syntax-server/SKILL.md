@@ -1,6 +1,14 @@
 ---
 name: vite-syntax-server
-description: "Guides all Vite dev server configuration options including server.host, server.port, server.proxy, server.cors, server.https, server.hmr, server.fs (strict/allow/deny), server.warmup, server.middlewareMode, server.open, server.headers, server.watch, server.forwardConsole, and server.allowedHosts. Activates when configuring the Vite dev server, setting up proxy rules, enabling HTTPS, restricting file system access, or using middleware mode."
+description: >
+  Use when configuring the Vite dev server, setting up proxy rules, enabling HTTPS,
+  restricting file system access, or using middleware mode.
+  Prevents exposing the dev server on the network without proper host/CORS settings
+  and misconfiguring proxy rewrite rules.
+  Covers server.host, server.port, server.proxy, server.cors, server.https,
+  server.hmr, server.fs (strict/allow/deny), server.warmup, server.middlewareMode,
+  server.open, server.headers, server.watch, server.forwardConsole, and server.allowedHosts.
+  Keywords: vite, dev server, proxy, HTTPS, CORS, HMR, middleware mode, file system access.
 license: MIT
 compatibility: "Designed for Claude Code. Requires Vite 6.x, 7.x, or 8.x."
 metadata:

@@ -1,6 +1,12 @@
 ---
 name: vite-impl-optimization
-description: "Guides Vite dependency pre-bundling and optimization including why pre-bundling exists (CJS-to-ESM conversion, HTTP request reduction), optimizeDeps.include/exclude/force configuration, automatic dependency discovery, monorepo linked dependency handling, caching behavior (node_modules/.vite), cache invalidation triggers, browser cache headers, Rolldown (v8) vs esbuild (v5-v7) for pre-bundling, and debugging dependency issues. Activates when configuring dependency pre-bundling, troubleshooting slow dev server starts, handling monorepo dependencies, or forcing cache invalidation."
+description: >
+  Use when configuring dependency pre-bundling, troubleshooting slow dev server starts,
+  handling monorepo dependencies, or forcing cache invalidation.
+  Prevents stale cache issues and missing optimizeDeps.include for dynamically imported dependencies.
+  Covers pre-bundling (CJS-to-ESM conversion), optimizeDeps.include/exclude/force, automatic
+  discovery, monorepo linked deps, caching (node_modules/.vite), and Rolldown vs esbuild.
+  Keywords: optimizeDeps, pre-bundling, node_modules/.vite, cache invalidation, monorepo, esbuild, Rolldown.
 license: MIT
 compatibility: "Designed for Claude Code. Requires Vite 6.x, 7.x, or 8.x."
 metadata:

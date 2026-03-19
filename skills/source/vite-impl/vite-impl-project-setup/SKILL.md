@@ -1,6 +1,12 @@
 ---
 name: vite-impl-project-setup
-description: "Guides Vite project setup including create-vite scaffolding with all framework templates, project structure conventions, CLI commands (vite dev, vite build, vite preview), TypeScript configuration (tsconfig.json requirements, vite-env.d.ts, isolatedModules), package.json scripts, and framework plugin integration. Activates when creating a new Vite project, adding Vite to an existing project, configuring TypeScript, or setting up the development workflow."
+description: >
+  Use when creating a new Vite project, adding Vite to an existing project,
+  or configuring TypeScript and framework plugins.
+  Prevents missing vite-env.d.ts for TypeScript or using wrong tsconfig settings.
+  Covers create-vite scaffolding, CLI commands, TypeScript config, project structure,
+  package.json scripts, and framework plugin integration.
+  Keywords: create-vite, vite dev, vite build, vite preview, tsconfig, vite-env.d.ts, project setup.
 license: MIT
 compatibility: "Designed for Claude Code. Requires Vite 6.x, 7.x, or 8.x."
 metadata:
