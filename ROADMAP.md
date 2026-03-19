@@ -1,7 +1,7 @@
 # ROADMAP
 
-## Current Phase: Phase 7 — Publication
-## Overall Progress: 22/22 skills (100%)
+## Current Phase: COMPLETE
+## Overall Progress: 22/22 skills — Published as v1.0.0
 
 ---
 
@@ -15,7 +15,7 @@
 | 4 | Topic-Specific Research | EMBEDDED IN PHASE 5 | — |
 | 5 | Skill Creation | COMPLETE | 22/22 |
 | 6 | Validation | COMPLETE | — |
-| 7 | Publication | IN PROGRESS | — |
+| 7 | Publication | COMPLETE | — |
 
 ---
 
@@ -43,12 +43,12 @@
 | 2026-03-19 | Phase 5 complete — all 22 skills created across 8 batches |
 | 2026-03-19 | Phase 6 complete — structural validation passed for all skills |
 | 2026-03-19 | Phase 7 — INDEX.md, README.md, CHANGELOG.md updated |
+| 2026-03-19 | Published to GitHub: v1.0.0 release, 8 topics set |
 
 ---
 
 ## Next Steps
 
-1. Commit all changes
-2. Create GitHub release tag (v1.0.0)
-3. Set repository topics (claude, skills, vite, build-tool, frontend, ai, deterministic, openaec)
-4. Verify README.md renders correctly on GitHub
+Project complete. Published at:
+- Repository: https://github.com/OpenAEC-Foundation/Vite-Claude-Skill-Package
+- Release: https://github.com/OpenAEC-Foundation/Vite-Claude-Skill-Package/releases/tag/v1.0.0
