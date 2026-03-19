@@ -1,5 +1,39 @@
 # Vite Claude Skill Package
 
+## Standing Orders — READ THIS FIRST
+
+**Mission**: Build a complete, production-ready skill package for Vite and publish it under the OpenAEC Foundation on GitHub. This is your standing order for every session in this workspace.
+
+**How**: Follow the 7-phase research-first methodology. Delegate ALL execution to agents. You are the ARCHITECT — you think, plan, validate, and delegate. Agents do the actual work.
+
+**What you do on session start**:
+1. Read ROADMAP.md → determine current phase and next steps
+2. Read all core files (LESSONS.md, DECISIONS.md, REQUIREMENTS.md, SOURCES.md)
+3. Continue where the previous session left off
+4. If Phase 1 is incomplete → create the raw masterplan first
+5. If Phase 2+ → follow the methodology, delegating in batches of 3 agents
+
+**Quality bar**: Every skill must be deterministic (ALWAYS/NEVER language), English-only, <500 lines, verified against official docs via WebFetch. No hallucinated APIs. No vague language.
+
+**End state**: A published GitHub repo at `https://github.com/OpenAEC-Foundation/Vite-Claude-Skill-Package` with:
+- All skills created, validated, and organized
+- INDEX.md with complete skill catalog
+- README.md with installation instructions and skill table
+- Social preview banner (1280x640px) with OpenAEC branding
+- Release tag (v1.0.0) and GitHub release
+- Repository topics set (claude, skills, vite, build-tool, frontend, ai, deterministic, openaec)
+
+**Reflection checkpoint**: After EVERY phase/batch, pause and ask: Do we need more research? Should we revise the plan? Are we meeting quality standards? Update core files before proceeding.
+
+**Consolidate lessons**: Any workflow-level insight (not tech-specific) should also be noted for consolidation back to the Workflow Template repo (`C:\Users\Freek Heijting\Documents\GitHub\Skill-Package-Workflow-Template`).
+
+**Reference projects** (study these for methodology, not content):
+- ERPNext (28 skills): https://github.com/OpenAEC-Foundation/ERPNext_Anthropic_Claude_Development_Skill_Package
+- Blender-Bonsai (73 skills): https://github.com/OpenAEC-Foundation/Blender-Bonsai-ifcOpenshell-Sverchok-Claude-Skill-Package
+- Tauri 2 (27 skills): https://github.com/OpenAEC-Foundation/Tauri-2-Claude-Skill-Package
+
+---
+
 ## Project Identity
 - Vite skill package for Claude — single technology, frontend build tool (TypeScript + JavaScript)
 - Technology: Vite 5.x / 6.x (next-generation frontend build tool with instant HMR, optimized builds, and plugin ecosystem)
