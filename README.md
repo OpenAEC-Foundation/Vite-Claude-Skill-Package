@@ -1,6 +1,10 @@
 # Vite Claude Skill Package
 
 <p align="center">
+  <img src="docs/social-preview.png" alt="22 Deterministic Skills for Vite" width="100%">
+</p>
+
+<p align="center">
   <strong style="font-size: 1.5em; color: #646CFF;">22 Deterministic Claude AI Skills for Vite 6, 7 & 8</strong>
 </p>
 
