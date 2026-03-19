@@ -116,3 +116,10 @@ Architectural and process decisions with rationale. Each decision is numbered an
 **Context**: SKILL.md template specifies `methods.md`, `examples.md`, `anti-patterns.md` as reference files. Skills use context-specific names (config-options.md, api-reference.md, hooks.md, etc.).
 **Decision**: Context-specific reference file names are acceptable and preferred when they improve clarity. The template provides defaults, not mandates.
 **Rationale**: `config-options.md` is more discoverable than `methods.md` for a configuration skill. All reference links are valid and correctly linked from SKILL.md.
+
+## D-017: Phase 4 Topic Research Embedded in Phase 5 Agent Prompts
+**Date**: 2026-03-19
+**Status**: ACTIVE
+**Context**: Phase 4 (Topic-Specific Research) normally produces per-skill research documents in `docs/research/topic-research/`. For this package, comprehensive research fragments from Phase 2 already covered all skill topics.
+**Decision**: Skip standalone Phase 4 topic-research files. Instead, embed topic-specific research sections directly in the Phase 5 agent prompts, referencing the Phase 2 research fragments.
+**Rationale**: The 3 research fragments (3138 lines total) already provide per-topic coverage. Duplicating this into separate topic-research files would add overhead without new information. See also L-006.
