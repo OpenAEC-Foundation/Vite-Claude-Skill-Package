@@ -81,7 +81,7 @@ Does the module have side effects (DOM manipulation, event listeners, timers)?
          ├─ YES → Do NOT self-accept — let the importer handle updates
          └─ NO  → Does a parent module accept this as a dependency?
                   ├─ YES → No action needed (parent is the HMR boundary)
-                  └─ NO  → Full reload will occur — consider adding accept()
+                  └─ NO  → Full reload will occur — ALWAYS add accept() to prevent this
 ```
 
 ### Why Is My Module Causing Full Reload?
