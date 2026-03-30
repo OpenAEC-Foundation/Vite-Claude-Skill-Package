@@ -106,7 +106,7 @@ Top-level options in `UserConfig` ARE `EnvironmentOptions` for the default `clie
 
 ## Core Patterns
 
-### Pattern 1: SPA — No Environment Config Needed
+### Pattern 1: SPA: No Environment Config Needed
 
 ```javascript
 // vite.config.js — SPA (unchanged from Vite 5)

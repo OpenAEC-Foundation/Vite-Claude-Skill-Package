@@ -19,7 +19,7 @@ metadata:
 
 # vite-syntax-resolve-css
 
-## Quick Reference — resolve.* Options
+## Quick Reference: resolve.* Options
 
 | Option | Type | Default | Purpose |
 |--------|------|---------|---------|
@@ -31,7 +31,7 @@ metadata:
 | `resolve.preserveSymlinks` | `boolean` | `false` | Use original path for identity |
 | `resolve.tsconfigPaths` | `boolean` | `false` | Enable tsconfig `paths` resolution |
 
-### resolve.conditions — SSR vs Client
+### resolve.conditions: SSR vs Client
 
 | Context | Default Conditions |
 |---------|-------------------|
@@ -40,7 +40,7 @@ metadata:
 
 `'development|production'` is automatically replaced based on `NODE_ENV`.
 
-## Quick Reference — css.* Options
+## Quick Reference: css.* Options
 
 | Option | Type | Default | Purpose |
 |--------|------|---------|---------|
@@ -52,7 +52,7 @@ metadata:
 | `css.transformer` | `'postcss' \| 'lightningcss'` | `'postcss'` | CSS processing engine |
 | `css.lightningcss` | `LightningCSSOptions` | — | Lightning CSS config (targets, drafts, etc.) |
 
-## Quick Reference — json.* and html.* Options
+## Quick Reference: json.* and html.* Options
 
 | Option | Type | Default | Purpose |
 |--------|------|---------|---------|
@@ -261,7 +261,7 @@ export default defineConfig({
 
 ## CSS Import Control
 
-### ?inline Query — Prevent Injection
+### ?inline Query: Prevent Injection
 
 ```typescript
 import styles from './tooltip.css?inline'

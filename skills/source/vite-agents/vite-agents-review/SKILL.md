@@ -127,7 +127,7 @@ Run every check in order. Mark each item PASS or FAIL. A single FAIL in a critic
 ## Validation Summary Template
 
 ```
-## Review Results — [Project Name] — [Date]
+## Review Results: [Project Name] — [Date]
 
 ### Version: Vite [6.x / 7.x / 8.x]
 

@@ -1,0 +1,5 @@
+# OpenAI Codex skill discovery
+name: vite-claude-skill-package
+description: >
+  22 deterministic Claude AI skills for Vite 6, 7 & 8. Config, plugin API, HMR, SSR, library mode, migration, and more
+skills_directory: ./skills/source

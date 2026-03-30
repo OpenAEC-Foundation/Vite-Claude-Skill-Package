@@ -21,7 +21,7 @@ metadata:
 
 ## Quick Reference
 
-### ViteHotContext — Core Methods
+### ViteHotContext: Core Methods
 
 | Method | Purpose | Key Constraint |
 |--------|---------|----------------|

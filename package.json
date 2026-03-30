@@ -1,0 +1,37 @@
+{
+  "name": "@openaec/vite-claude-skill-package",
+  "version": "1.1.0",
+  "description": "22 deterministic Claude AI skills for Vite 6, 7 & 8 — config, plugin API, HMR, SSR, library mode, migration, and more",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OpenAEC-Foundation/Vite-Claude-Skill-Package"
+  },
+  "keywords": ["agent-skills", "agentskills", "claude-skills", "vite", "build-tool", "frontend", "hmr", "ssr"],
+  "agents": {
+    "skills": [
+      { "name": "vite-agents-project-scaffolder", "path": "./skills/source/vite-agents/vite-agents-project-scaffolder" },
+      { "name": "vite-agents-review", "path": "./skills/source/vite-agents/vite-agents-review" },
+      { "name": "vite-core-architecture", "path": "./skills/source/vite-core/vite-core-architecture" },
+      { "name": "vite-core-environment-api", "path": "./skills/source/vite-core/vite-core-environment-api" },
+      { "name": "vite-errors-build", "path": "./skills/source/vite-errors/vite-errors-build" },
+      { "name": "vite-errors-dependency", "path": "./skills/source/vite-errors/vite-errors-dependency" },
+      { "name": "vite-errors-dev-server", "path": "./skills/source/vite-errors/vite-errors-dev-server" },
+      { "name": "vite-impl-backend-integration", "path": "./skills/source/vite-impl/vite-impl-backend-integration" },
+      { "name": "vite-impl-javascript-api", "path": "./skills/source/vite-impl/vite-impl-javascript-api" },
+      { "name": "vite-impl-library-mode", "path": "./skills/source/vite-impl/vite-impl-library-mode" },
+      { "name": "vite-impl-migration", "path": "./skills/source/vite-impl/vite-impl-migration" },
+      { "name": "vite-impl-optimization", "path": "./skills/source/vite-impl/vite-impl-optimization" },
+      { "name": "vite-impl-project-setup", "path": "./skills/source/vite-impl/vite-impl-project-setup" },
+      { "name": "vite-impl-ssr", "path": "./skills/source/vite-impl/vite-impl-ssr" },
+      { "name": "vite-syntax-assets", "path": "./skills/source/vite-syntax/vite-syntax-assets" },
+      { "name": "vite-syntax-build", "path": "./skills/source/vite-syntax/vite-syntax-build" },
+      { "name": "vite-syntax-config", "path": "./skills/source/vite-syntax/vite-syntax-config" },
+      { "name": "vite-syntax-env-vars", "path": "./skills/source/vite-syntax/vite-syntax-env-vars" },
+      { "name": "vite-syntax-hmr-api", "path": "./skills/source/vite-syntax/vite-syntax-hmr-api" },
+      { "name": "vite-syntax-plugin-api", "path": "./skills/source/vite-syntax/vite-syntax-plugin-api" },
+      { "name": "vite-syntax-resolve-css", "path": "./skills/source/vite-syntax/vite-syntax-resolve-css" },
+      { "name": "vite-syntax-server", "path": "./skills/source/vite-syntax/vite-syntax-server" }
+    ]
+  }
+}
