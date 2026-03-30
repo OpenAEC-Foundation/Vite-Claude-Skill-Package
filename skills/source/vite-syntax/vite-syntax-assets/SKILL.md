@@ -6,7 +6,9 @@ description: >
   Prevents incorrect query suffix usage, broken new URL() patterns, and misconfigured public directory paths.
   Covers asset imports, query suffixes (?url, ?raw, ?inline, ?worker), import.meta.glob,
   public directory, JSON imports, WebAssembly ?init, and Web Worker patterns.
-  Keywords: asset import, query suffix, ?raw, ?url, ?worker, import.meta.glob, public directory, WebAssembly, Web Worker.
+  Keywords: asset import, query suffix, ?raw, ?url, ?worker, import.meta.glob,
+  public directory, WebAssembly, Web Worker, import image, import SVG,
+  static files, glob import, load file as string.
 license: MIT
 compatibility: "Designed for Claude Code. Requires Vite 6.x, 7.x, or 8.x."
 metadata:

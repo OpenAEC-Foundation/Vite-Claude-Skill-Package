@@ -6,7 +6,9 @@ description: >
   Prevents incorrect SSR externals configuration and missing ssrFixStacktrace() for error debugging.
   Covers SSR dev workflow with Express middleware, ssrLoadModule(), SSR externals (ssr.noExternal,
   ssr.external, ssr.target), SSR manifest, import.meta.env.SSR, and production build steps.
-  Keywords: SSR, ssrLoadModule, ssrFixStacktrace, ssr.noExternal, ssr.external, SSR manifest, middleware mode.
+  Keywords: SSR, ssrLoadModule, ssrFixStacktrace, ssr.noExternal, ssr.external,
+  SSR manifest, middleware mode, server side rendering, SSR not working,
+  hydration error, render on server.
 license: MIT
 compatibility: "Designed for Claude Code. Requires Vite 6.x, 7.x, or 8.x."
 metadata:

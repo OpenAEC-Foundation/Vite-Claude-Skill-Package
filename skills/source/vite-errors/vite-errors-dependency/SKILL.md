@@ -9,7 +9,8 @@ description: >
   optimizeDeps configuration, monorepo linked dependencies, cache invalidation,
   browser cache staleness, and large dependency tree performance.
   Keywords: pre-bundling, optimizeDeps, CJS, ESM, cache, dependency resolution,
-  monorepo, node_modules/.vite.
+  monorepo, node_modules/.vite, import not working, module not found,
+  dependency error, stale cache, slow startup.
 license: MIT
 compatibility: "Designed for Claude Code. Requires Vite 6.x, 7.x, or 8.x."
 metadata:

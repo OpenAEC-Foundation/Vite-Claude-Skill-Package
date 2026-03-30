@@ -6,7 +6,9 @@ description: >
   Prevents missing vite-env.d.ts for TypeScript or using wrong tsconfig settings.
   Covers create-vite scaffolding, CLI commands, TypeScript config, project structure,
   package.json scripts, and framework plugin integration.
-  Keywords: create-vite, vite dev, vite build, vite preview, tsconfig, vite-env.d.ts, project setup.
+  Keywords: create-vite, vite dev, vite build, vite preview, tsconfig,
+  vite-env.d.ts, project setup, getting started, new project, install Vite,
+  configure TypeScript.
 license: MIT
 compatibility: "Designed for Claude Code. Requires Vite 6.x, 7.x, or 8.x."
 metadata:

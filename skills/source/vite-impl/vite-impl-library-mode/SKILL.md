@@ -6,7 +6,9 @@ description: >
   Prevents bundling peer dependencies into the library or misconfiguring output formats.
   Covers build.lib configuration, external dependencies, output formats (es, cjs, umd, iife),
   CSS handling, multiple entry points, vite-plugin-dts, and package.json exports.
-  Keywords: build.lib, library mode, npm package, external, UMD, ESM, CJS, vite-plugin-dts, exports.
+  Keywords: build.lib, library mode, npm package, external, UMD, ESM, CJS,
+  vite-plugin-dts, exports, publish to npm, build a library, bundle component,
+  create npm package.
 license: MIT
 compatibility: "Designed for Claude Code. Requires Vite 6.x, 7.x, or 8.x."
 metadata:

@@ -10,7 +10,9 @@ description: >
   Rollup-compatible hooks (resolveId, load, transform), plugin ordering,
   conditional application (apply), virtual modules, hook filters (v6.3+),
   and client-server WebSocket communication.
-  Keywords: vite, plugin, hooks, virtual modules, resolveId, transform, enforce, configureServer.
+  Keywords: vite, plugin, hooks, virtual modules, resolveId, transform, enforce,
+  configureServer, write a Vite plugin, custom plugin, extend Vite,
+  hook lifecycle, plugin order.
 license: MIT
 compatibility: "Designed for Claude Code. Requires Vite 6.x, 7.x, or 8.x."
 metadata:

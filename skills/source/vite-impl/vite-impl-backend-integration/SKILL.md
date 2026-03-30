@@ -6,7 +6,9 @@ description: >
   Prevents incorrect manifest.json traversal and missing CSS chunk resolution in production.
   Covers build.manifest configuration, .vite/manifest.json structure, ManifestChunk properties,
   dev mode HTML setup, production rendering, CSS/JS chunk resolution, and modulepreload polyfill.
-  Keywords: backend integration, manifest.json, ManifestChunk, Django, Laravel, Rails, modulepreload.
+  Keywords: backend integration, manifest.json, ManifestChunk, Django, Laravel,
+  Rails, modulepreload, use Vite with backend, PHP, Python, Ruby, server
+  rendered templates, assets not loading.
 license: MIT
 compatibility: "Designed for Claude Code. Requires Vite 6.x, 7.x, or 8.x."
 metadata:

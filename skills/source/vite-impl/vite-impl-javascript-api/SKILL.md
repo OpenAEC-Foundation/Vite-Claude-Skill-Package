@@ -9,7 +9,8 @@ description: >
   loadConfigFromFile(), loadEnv(), searchForWorkspaceRoot(), transformWithOxc(),
   normalizePath(), createFilter(), and version constants.
   Keywords: JavaScript API, createServer, build, preview, InlineConfig,
-  ViteDevServer, moduleGraph, resolveConfig, mergeConfig, loadEnv.
+  ViteDevServer, moduleGraph, resolveConfig, mergeConfig, loadEnv,
+  programmatic Vite, custom dev server, run Vite from script.
 license: MIT
 compatibility: "Designed for Claude Code. Requires Vite 6.x, 7.x, or 8.x."
 metadata:

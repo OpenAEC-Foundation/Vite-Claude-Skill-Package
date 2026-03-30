@@ -9,7 +9,8 @@ description: >
   problems, library mode build failures, BundleError handling, and asset
   processing errors.
   Keywords: build error, Rolldown, chunk size, sourcemap, library mode, minify,
-  BundleError, rollupOptions, build.target.
+  BundleError, rollupOptions, build.target, build fails, vite build broken,
+  chunk too large, production build error, output too big.
 license: MIT
 compatibility: "Designed for Claude Code. Requires Vite 6.x, 7.x, or 8.x."
 metadata:

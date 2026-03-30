@@ -9,7 +9,8 @@ description: >
   v6-to-v7 (Node.js 20+, build.target), and v7-to-v8 (Rolldown, Oxc,
   Lightning CSS, rolldownOptions, moduleType).
   Keywords: migration, upgrade, breaking changes, Rolldown, Oxc, Lightning CSS,
-  deprecated API, version compatibility.
+  deprecated API, version compatibility, update Vite, upgrade Vite version,
+  deprecated warning, API changed.
 license: MIT
 compatibility: "Designed for Claude Code. Covers migration paths from Vite 5 through Vite 8."
 metadata:

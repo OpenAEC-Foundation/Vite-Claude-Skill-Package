@@ -6,7 +6,9 @@ description: >
   Prevents stale cache issues and missing optimizeDeps.include for dynamically imported dependencies.
   Covers pre-bundling (CJS-to-ESM conversion), optimizeDeps.include/exclude/force, automatic
   discovery, monorepo linked deps, caching (node_modules/.vite), and Rolldown vs esbuild.
-  Keywords: optimizeDeps, pre-bundling, node_modules/.vite, cache invalidation, monorepo, esbuild, Rolldown.
+  Keywords: optimizeDeps, pre-bundling, node_modules/.vite, cache invalidation,
+  monorepo, esbuild, Rolldown, dev server slow, slow startup, dependencies
+  not pre-bundled, force rebundle.
 license: MIT
 compatibility: "Designed for Claude Code. Requires Vite 6.x, 7.x, or 8.x."
 metadata:

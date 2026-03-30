@@ -8,7 +8,9 @@ description: >
   Covers server.host, server.port, server.proxy, server.cors, server.https,
   server.hmr, server.fs (strict/allow/deny), server.warmup, server.middlewareMode,
   server.open, server.headers, server.watch, server.forwardConsole, and server.allowedHosts.
-  Keywords: vite, dev server, proxy, HTTPS, CORS, HMR, middleware mode, file system access.
+  Keywords: vite, dev server, proxy, HTTPS, CORS, HMR, middleware mode,
+  file system access, configure dev server, API proxy, expose on network,
+  access from other devices.
 license: MIT
 compatibility: "Designed for Claude Code. Requires Vite 6.x, 7.x, or 8.x."
 metadata:

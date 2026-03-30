@@ -9,7 +9,9 @@ description: >
   build.cssCodeSplit, build.cssTarget, build.cssMinify, build.sourcemap,
   build.rolldownOptions (v8)/build.rollupOptions (v6-v7), build.lib, build.manifest,
   build.ssr, build.minify (oxc/terser/esbuild), build.emptyOutDir, and build.watch.
-  Keywords: vite, build, rollup, rolldown, minify, sourcemap, chunk splitting, build target.
+  Keywords: vite, build, rollup, rolldown, minify, sourcemap, chunk splitting,
+  build target, configure production build, output settings, bundle size,
+  code splitting.
 license: MIT
 compatibility: "Designed for Claude Code. Requires Vite 6.x, 7.x, or 8.x."
 metadata:

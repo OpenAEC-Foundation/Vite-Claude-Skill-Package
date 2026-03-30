@@ -8,7 +8,9 @@ description: >
   Covers dev server vs build pipeline, native ESM serving, dependency pre-bundling,
   module graph, internal tools evolution (esbuild to Oxc, Rollup to Rolldown),
   index.html as entry point, browser support targets, and Node.js requirements.
-  Keywords: vite, architecture, dev server, build, ESM, Rolldown, Oxc, pre-bundling, module graph.
+  Keywords: vite, architecture, dev server, build, ESM, Rolldown, Oxc,
+  pre-bundling, module graph, how Vite works, what is Vite, Vite vs webpack,
+  why is Vite fast.
 license: MIT
 compatibility: "Designed for Claude Code. Requires Vite 6.x, 7.x, or 8.x."
 metadata:

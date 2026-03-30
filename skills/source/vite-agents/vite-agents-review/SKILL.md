@@ -9,7 +9,8 @@ description: >
   version-specific API usage, build optimization, environment variable
   security, SSR configuration, and anti-pattern detection.
   Keywords: review, validation, checklist, audit, anti-pattern, envPrefix,
-  plugin hooks, security, SSR, build optimization.
+  plugin hooks, security, SSR, build optimization, check my Vite config,
+  is my setup correct, verify Vite project.
 license: MIT
 compatibility: "Designed for Claude Code. Requires Vite 6.x, 7.x, or 8.x."
 metadata:

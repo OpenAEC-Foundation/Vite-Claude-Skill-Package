@@ -6,7 +6,9 @@ description: >
   Prevents exposing secrets by omitting the VITE_ prefix and misconfiguring .env file precedence.
   Covers import.meta.env built-ins, .env file loading order, VITE_ prefix requirement,
   dotenv-expand, custom modes, NODE_ENV vs mode, ImportMetaEnv TypeScript, HTML %VAR%, and loadEnv().
-  Keywords: import.meta.env, .env, VITE_ prefix, loadEnv, custom mode, NODE_ENV, ImportMetaEnv.
+  Keywords: import.meta.env, .env, VITE_ prefix, loadEnv, custom mode,
+  NODE_ENV, ImportMetaEnv, environment variables not working, env undefined,
+  access env variable, .env.local, secret exposed.
 license: MIT
 compatibility: "Designed for Claude Code. Requires Vite 6.x, 7.x, or 8.x."
 metadata:

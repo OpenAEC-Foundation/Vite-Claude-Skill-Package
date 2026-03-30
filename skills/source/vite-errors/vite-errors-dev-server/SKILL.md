@@ -9,7 +9,8 @@ description: >
   certificates, server.fs.strict violations, port conflicts, WebSocket
   failures, file watcher issues, and middleware mode.
   Keywords: dev server, HMR, proxy, CORS, HTTPS, WebSocket, port conflict,
-  server.fs.strict, middleware mode, file watcher.
+  server.fs.strict, middleware mode, file watcher, dev server won't start,
+  HMR not updating, page keeps reloading, CORS blocked, proxy not working.
 license: MIT
 compatibility: "Designed for Claude Code. Requires Vite 6.x, 7.x, or 8.x."
 metadata:

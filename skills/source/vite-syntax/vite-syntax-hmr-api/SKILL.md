@@ -9,7 +9,9 @@ description: >
   for self-accepting and dependency-accepting modules, hot.dispose(), hot.prune(),
   hot.invalidate(), hot.data for persistent state, hot.on()/hot.off()/hot.send()
   for custom events, built-in HMR events, and HMR boundary concept.
-  Keywords: vite, HMR, hot module replacement, accept, dispose, invalidate, hot.data, full reload.
+  Keywords: vite, HMR, hot module replacement, accept, dispose, invalidate,
+  hot.data, full reload, changes not showing, page reloads instead of HMR,
+  hot reload broken, preserve state on edit.
 license: MIT
 compatibility: "Designed for Claude Code. Requires Vite 6.x, 7.x, or 8.x."
 metadata:

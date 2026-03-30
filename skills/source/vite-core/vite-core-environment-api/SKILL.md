@@ -8,7 +8,9 @@ description: >
   Covers per-environment build and dev settings, EnvironmentOptions interface,
   custom environment providers, shared vs per-environment plugins, configuration
   inheritance, and migration from Vite 5 implicit environments.
-  Keywords: vite, environment api, vite 6, SSR, edge workers, per-environment config, providers.
+  Keywords: vite, environment api, vite 6, SSR, edge workers,
+  per-environment config, providers, separate client server config,
+  custom runtime, worker environment.
 license: MIT
 compatibility: "Designed for Claude Code. Requires Vite 6.x or later."
 metadata:

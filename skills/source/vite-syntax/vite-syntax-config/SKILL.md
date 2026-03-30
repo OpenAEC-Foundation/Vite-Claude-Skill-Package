@@ -8,7 +8,8 @@ description: >
   Covers defineConfig(), conditional and async config functions, loadEnv(),
   and all shared options (root, base, mode, define, plugins, publicDir, cacheDir,
   logLevel, clearScreen, envDir, envPrefix, appType, future).
-  Keywords: vite, config, defineConfig, loadEnv, vite.config.ts, shared options, plugins.
+  Keywords: vite, config, defineConfig, loadEnv, vite.config.ts, shared options,
+  plugins, configure Vite, vite.config.js, setup config, add plugin.
 license: MIT
 compatibility: "Designed for Claude Code. Requires Vite 6.x, 7.x, or 8.x."
 metadata:

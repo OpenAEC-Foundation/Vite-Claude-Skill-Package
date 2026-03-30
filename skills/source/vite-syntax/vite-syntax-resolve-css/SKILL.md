@@ -9,7 +9,9 @@ description: >
   resolve.tsconfigPaths, css.modules, css.postcss, css.preprocessorOptions
   (Sass/Less/Stylus), css.transformer, css.lightningcss, css.devSourcemap,
   json.namedExports, json.stringify, and html.cspNonce.
-  Keywords: vite, resolve, alias, CSS modules, PostCSS, Lightning CSS, Sass, preprocessor.
+  Keywords: vite, resolve, alias, CSS modules, PostCSS, Lightning CSS, Sass,
+  preprocessor, path alias not working, @ import alias, CSS not loading,
+  SCSS setup, style preprocessor.
 license: MIT
 compatibility: "Designed for Claude Code. Requires Vite 6.x, 7.x, or 8.x."
 metadata:

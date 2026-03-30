@@ -9,7 +9,8 @@ description: >
   vite-env.d.ts), package.json with scripts, index.html entry point, source
   directory structure, .env setup, and React/Vue/Svelte/vanilla support.
   Keywords: scaffold, project setup, vite.config.ts, tsconfig, React, Vue,
-  Svelte, TypeScript, package.json, create-vite.
+  Svelte, TypeScript, package.json, create-vite, new Vite project,
+  start from scratch, generate boilerplate, init project.
 license: MIT
 compatibility: "Designed for Claude Code. Requires Vite 6.x, 7.x, or 8.x."
 metadata:
